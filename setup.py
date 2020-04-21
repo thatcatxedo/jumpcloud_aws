@@ -9,7 +9,7 @@ setup(
     },
     install_requires=[
         'beautifulsoup4==4.5.3',
-        'boto3==1.7.22',
+        'boto3',
         'bs4==0.0.1',
         'requests==2.13.0',
         'six==1.10.0',
