@@ -8,13 +8,13 @@ setup(
         'jumpcloud_aws': ['config.yml']
     },
     install_requires=[
-        'beautifulsoup4==4.5.3',
+        'beautifulsoup4',
         'boto3',
-        'bs4==0.0.1',
-        'requests==2.13.0',
-        'six==1.10.0',
-        'click==6.7',
-        'PyYAML==3.12'
+        'bs4',
+        'requests',
+        'six',
+        'click',
+        'PyYAML'
     ],
     entry_points='''
         [console_scripts]
